@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FEDCDD;
+}
+.flag1,.flag2,.flag3{
+    margin-bottom: 40px;
+}
+/*first flag starts here*/
+.flag1{
+    width: 600px;
+    height: 360px;
+    margin: auto;
+    position: relative;
+    box-shadow: #293d79 8px 8px 15px;
+    overflow: hidden;
+}/*flag 1 body*/
+.box1{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}/*flag 1 top white box*/
+.box2{
+    width: 100%;
+    height: 50%;
+    background-color: #1945CC;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}/*flag 1 bottom blue box*/
+.round{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    position: absolute;
+    margin-left: 100px;
+    transform: translateY(50%);
+}/*flag 1 circle*/
+.blue{
+    width: 100%;
+    height: 50%;
+    background-color: #1945CC;
+}
+.white{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+/*first flag ends here*/
+
+/*second flag stars here*/
+.flag2{
+    width: 600px;
+    height: 360px;
+    margin: auto;
+    box-shadow: #293d79 8px 8px 15px;
+}/*flag 2 body*/
+.box-1-flag-2{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    overflow: hidden;
+}/*flag 2 top white box*/
+.round-1-flag-2{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #1945CC;
+    margin-left: 100px;
+    margin-top: 90px ;
+}
+.box-2-flag-2{
+    width: 100%;
+    height: 50%;
+    background-color: #1945CC;
+    overflow: hidden;
+}/*flag 2 bottom blue box*/
+.round-2-flag-2{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 100px;
+    margin-bottom: 90px;margin-top: -90px;
+}
+/*second flag ends here*/
+
+/*third flag starts here*/
+.flag3 {
+    width: 360px;
+    height: 600px;
+    margin: auto;
+    margin-top: -70px;
+    box-shadow: #293d79 8px -8px 15px;
+    background-image: conic-gradient(#1945CC 180deg,#1945CC 180deg,white 90deg);
+    transform: rotate(90deg);
+}/*flag 3 body*/
+.round-flag-3 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-image: conic-gradient(#1945CC 0deg,#1945CC 180deg,white 180deg);
+    margin-left: 90px;
+    transform: rotate(180deg);
+    margin-top: 300px;
+}/*flag 3 circle*/
+/*third flag ends here*/
